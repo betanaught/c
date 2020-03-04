@@ -12,7 +12,7 @@ int main()
 
   printf("Enter %d intergers\n", n);
 
-  for (c = 0; c < n, c++;)
+  for (c = 0; c < n; c++)
     scanf("%d", &array[c]);
 
   printf("Enter value to find\n");
@@ -34,7 +34,7 @@ int main()
 
     middle = (first + last)/2;
   }
-  if (first < last)
+  if (first > last)
     printf("Not found! %d isn't present in the list.\n", search);
 
   return 0;
